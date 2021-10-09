@@ -12,7 +12,7 @@
 - [![LINKEDIN](https://img.shields.io/badge/Linkedin-black?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/manishkutar/)
 - [![DISCORD](https://img.shields.io/discord/866568970235412490?style=for-the-badge)](https://discord.com/channels/866568970235412490)
 - [![BLOG](https://img.shields.io/github/followers/ManishKutar?style=social)]()
-- [![SPONSOR](https://img.shields.io/github/sponsors/ManishKutar)]
+- ![SPONSOR](https://img.shields.io/github/sponsors/ManishKutar)
 
 #### ⚡ Fun fact: 
 - Is the account maintained?: [![MaintenanceYear](https://img.shields.io/maintenance/yes/2021)]()
