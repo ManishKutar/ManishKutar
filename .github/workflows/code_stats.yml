@@ -43,7 +43,7 @@ jobs:
       - name: Powershell_version
         run: |
           echo Add other actions to build,
-          powershell -NoLogo -NonInteractive -NoProfile -Command '$PSVersionTable'
+          powershell Get-WinEvent -ListLog *PowerShell*
       
       # setup-docker
       - name: setup-docker
