@@ -39,11 +39,11 @@ jobs:
           # Windows Powershell version?
           powershell -Command '$PSVersionTable'
 
-      # Gets PowerShell version
+      # Runs PowerShell script
       - name: Powershell_version
         run: |
           echo Add other actions to build,
-          powershell Get-WinEvent -ListLog *PowerShell*
+          powershell -File ${env:GITHUB_WORKSPACE}\.github\scripts\build-windows.ps1
       
       # setup-docker
       - name: setup-docker
