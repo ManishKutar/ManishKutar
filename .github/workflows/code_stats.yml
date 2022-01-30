@@ -43,7 +43,7 @@ jobs:
       - name: Powershell_version
         run: |
           echo Add other actions to build,
-          powershell -File ${env:GITHUB_WORKSPACE}\.github\scripts\build-windows.ps1
+          powershell -File ${env:GITHUB_WORKSPACE}\.github\scripts\scripts.ps1
       
       # setup-docker
       - name: setup-docker
