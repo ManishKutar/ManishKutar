@@ -34,10 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo "HOST_IP_ADDRESS=$env:hostip" >> $env:GITHUB_ENV
+          ipconfig
       
-      # Runs CodeStatistics actions using suggested App on GitHub marketplace.
-      #- name: Code_Stats
-      #  uses: jojo2357/CodeStats@0.4.0
-      #  with:
-      #    root_dir: 'com/github/jojo2357'
-      #    exclude: 'test'
+      # Runs Install dependencies actions using suggested App on GitHub marketplace.
+      - name: Install_Dependencies
+        run: npm install
