@@ -12,7 +12,7 @@ $UserName = 'User'
 $Password = ConvertTo-SecureString "Pass123" -AsPlainText -Force
 $Credential = New-Object System.Management.Automation.PSCredential ($UserName, $Password)
 			
-New-BCContainer -accept_eula `
+<# New-BCContainer -accept_eula `
                 -accept_outdated `
                 -updateHosts `
                 -containername $containername `
@@ -20,3 +20,4 @@ New-BCContainer -accept_eula `
                 -imageName $imageName `
                 -auth NavUserPassword `
                 -Credential $credential
+		#>
