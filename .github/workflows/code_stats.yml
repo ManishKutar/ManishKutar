@@ -25,18 +25,22 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      # Display Windows system info
+      - name: Sys_Info
+        run: |
+          Set-StrictMode -Version Latest; $ErrorActionPreference = 'Stop'
+          hostname
+          whoami
+          systeminfo
+          Get-PSDrive
+          Get-Location
+          # pwsh version
+          $PSVersionTable
+          # Windows Powershell version?
+          powershell -Command '$PSVersionTable'
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      # Gets PowerShell version
+      - name: Powershell_version
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
-          echo "HOST_IP_ADDRESS=$env:hostip" >> $env:GITHUB_ENV
-          ipconfig
-      
-      # Runs Install dependencies actions using suggested App on GitHub marketplace.
-      - name: Install_Dependencies
-        run: npm install
+          powershell -NoLogo -NonInteractive -NoProfile -Command '$PSVersionTable'
