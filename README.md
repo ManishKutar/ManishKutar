@@ -3,9 +3,12 @@
 #### 🔭 I’m currently working on 
 - Microsoft Dynamics Business Central
 - Microsoft Dynamics Business NAV
-- PowerShell
+- OpenAI
+- Microsoft Power Platforms (Power Apps, Power BI, Power Automate)
 - Azure DevOps / Repos / Pipelines
-- CI/CD
+
+#### - 🌱 I’m currently learning 
+- OpenAI and ML
 
 #### 📫 How to reach me: 
 - [![BLOG](https://img.shields.io/badge/wordpress-black?style=for-the-badge&logo=wordpress)](https://manishkutar.wordpress.com/)
