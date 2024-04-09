@@ -18,7 +18,7 @@
 - ![SPONSOR](https://img.shields.io/github/sponsors/ManishKutar)
 
 #### ⚡ Fun fact: 
-- Is the account maintained?: [![MaintenanceYear](https://img.shields.io/maintenance/yes/2023)]()
+- Is the account maintained?: [![MaintenanceYear](https://img.shields.io/maintenance/yes/2024)]()
 <!--
 **ManishKutar/ManishKutar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
